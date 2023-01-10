@@ -1,0 +1,18 @@
+
+ NOTES
+
+   - Dans le makefile: SPECIFIER les chemins vers "SuiteSpare" et "AGMG" via les macros "SuiteSparsedir" et "agmgdir"
+   
+   - Code construit pour pouvoir modéliser toutes les géométries à des degrès de précision géométrique variables voir main.c
+   
+   - Les données géométriques sont modifiables via la structure variables v dans main.c
+
+   - Architecture du dossier : -src(contient les fichiers.c)
+                               -header (contient les fichiers.h)
+                               -objet (se crée normalement avec le makefile)
+                               -datafiles (contient les fichiers.txt créés en cours d'exécution)
+                               -main.c
+                               -Makefile
+
+
+

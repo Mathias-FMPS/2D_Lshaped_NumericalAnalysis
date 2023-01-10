@@ -1,0 +1,1 @@
+int plot_comp();
