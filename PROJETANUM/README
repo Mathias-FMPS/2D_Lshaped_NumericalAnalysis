@@ -1,5 +1,7 @@
 
  NOTES
+ 
+   - Prévu pour être exécuté sous Linux
 
    - Dans le makefile: SPECIFIER les chemins vers "SuiteSpare" et "AGMG" via les macros "SuiteSparsedir" et "agmgdir"
    
@@ -10,7 +12,7 @@
    - Architecture du dossier : -src(contient les fichiers.c)
                                -header (contient les fichiers.h)
                                -objet (se crée normalement avec le makefile)
-                               -datafiles (contient les fichiers.txt créés en cours d'exécution)
+                               -datafiles (contient les fichiers.txt créés en cours d'exécution, absent du Github, simplement créer un dossier vide "datafiles")
                                -main.c
                                -Makefile
 
